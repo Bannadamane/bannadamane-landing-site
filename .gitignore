@@ -1,0 +1,8 @@
+assets.zip
+node_modules/
+dist/
+build/
+.env
+.DS_Store
+assets/1000069276.mp4
+assets/1000223050.mp4

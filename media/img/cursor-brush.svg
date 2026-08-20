@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"   stop-color="#4A2F14"/>
+      <stop offset=".26" stop-color="#A9722F"/>
+      <stop offset=".46" stop-color="#D8A45B"/>
+      <stop offset=".68" stop-color="#8E5C25"/>
+      <stop offset="1"   stop-color="#3E2711"/>
+    </linearGradient>
+    <linearGradient id="ferrule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"   stop-color="#6A6A74"/>
+      <stop offset=".2"  stop-color="#D9D9E2"/>
+      <stop offset=".38" stop-color="#FBFBFF"/>
+      <stop offset=".62" stop-color="#B0B0BC"/>
+      <stop offset=".82" stop-color="#8A8A95"/>
+      <stop offset="1"   stop-color="#5B5B65"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#3A2A1E"/>
+      <stop offset=".28" stop-color="#6B3A25"/>
+      <stop offset=".52" stop-color="#C42E20"/>
+      <stop offset="1"   stop-color="#9B1B10"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="rotate(35 20 20)">
+    <!-- handle: narrow butt, thickening toward the ferrule -->
+    <path d="M19.05 3.3a.95.95 0 0 1 1.9 0L21.75 19h-3.5z" fill="url(#wood)"/>
+    <path d="M19.5 3.6h.62L19.9 18.9h-.62z" fill="#fff" opacity=".3"/>
+    <!-- lacquer band -->
+    <path d="M18.45 14.9h3.1l.1 1.9h-3.3z" fill="#1F1840"/>
+    <path d="M18.5 15.1h.5l.06 1.5h-.5z" fill="#fff" opacity=".22"/>
+
+    <!-- ferrule: wider than the handle, crimped -->
+    <path d="M17.65 18.85h4.7l-.32 5.5h-4.06z" fill="url(#ferrule)"/>
+    <path d="M17.72 20.35h4.56l-.03.55h-4.5z" fill="#4E4E58" opacity=".55"/>
+    <path d="M17.63 22.3h4.74l-.03.55h-4.68z" fill="#4E4E58" opacity=".45"/>
+    <path d="M17.65 18.85h4.7l.02.5h-4.74z" fill="#33333B" opacity=".5"/>
+
+    <!-- bristles: flare out past the ferrule, then draw to a fine point -->
+    <path d="M17.97 24.1h4.06c1.24 1.9 1.52 3.9 1.06 6.05-.5 2.35-1.62 4.6-3.05 6.9-1.46-2.3-2.6-4.55-3.1-6.9-.46-2.15-.2-4.15 1.03-6.05z"
+          fill="url(#hair)"/>
+    <!-- hairs -->
+    <path d="M18.9 24.9c-.5 3.6-.3 7 .55 10.6" stroke="#2A1710" stroke-width=".45" opacity=".4" fill="none"/>
+    <path d="M21.2 24.9c.42 3.6.2 7-.6 10.6" stroke="#2A1710" stroke-width=".45" opacity=".32" fill="none"/>
+    <path d="M17.4 26.6c-.15 2.5.3 4.9 1.2 7.2" stroke="#2A1710" stroke-width=".38" opacity=".26" fill="none"/>
+    <!-- wet highlight down the belly -->
+    <path d="M19.7 26.4h.7c-.06 3.1-.16 6-.3 8.4-.16-2.4-.3-5.3-.4-8.4z" fill="#fff" opacity=".26"/>
+  </g>
+</svg>
